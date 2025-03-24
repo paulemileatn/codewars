@@ -14,3 +14,9 @@ const evenLast = numbers =>
         0
       ) * numbers.at(-1)
     : 0;
+
+// Highest and Lowest
+const highAndLow = numbers => {
+  const numArray = numbers.split(' ').map(Number);
+  return `${Math.max(...numArray)} ${Math.min(...numArray)}`;
+};

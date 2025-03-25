@@ -32,3 +32,6 @@ const calculator = (a, b, sign) => {
       return a / b;
   }
 };
+
+// Sum The Strings
+const sumStr = (a, b) => String(Number(a) + Number(b));

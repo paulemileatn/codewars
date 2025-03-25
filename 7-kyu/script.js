@@ -20,3 +20,6 @@ const highAndLow = numbers => {
   const numArray = numbers.split(' ').map(Number);
   return `${Math.max(...numArray)} ${Math.min(...numArray)}`;
 };
+
+// No oddities here
+const noOdds = values => values.filter(number => number % 2 === 0);

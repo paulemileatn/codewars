@@ -23,3 +23,6 @@ const highAndLow = numbers => {
 
 // No oddities here
 const noOdds = values => values.filter(number => number % 2 === 0);
+
+// Password validator
+const password = str => /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$/.test(str);

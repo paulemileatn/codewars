@@ -35,3 +35,6 @@ const calculator = (a, b, sign) => {
 
 // Sum The Strings
 const sumStr = (a, b) => String(Number(a) + Number(b));
+
+// Template Strings
+const templateStrings = (noun, adjective) => `${noun} are ${adjective}`;

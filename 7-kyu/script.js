@@ -26,3 +26,6 @@ const noOdds = values => values.filter(number => number % 2 === 0);
 
 // Password validator
 const password = str => /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$/.test(str);
+
+// Is every value in the array an array?
+const arrCheck = value => value.every(el => Array.isArray(el));

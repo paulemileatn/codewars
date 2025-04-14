@@ -38,3 +38,6 @@ const sumStr = (a, b) => String(Number(a) + Number(b));
 
 // Template Strings
 const templateStrings = (noun, adjective) => `${noun} are ${adjective}`;
+
+// Grasshopper - Personalized Message
+const greet = (name, owner) => `Hello ${name === owner ? 'boss' : 'guest'}`;
